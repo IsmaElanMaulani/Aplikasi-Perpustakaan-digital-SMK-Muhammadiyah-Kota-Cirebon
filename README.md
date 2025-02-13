@@ -1,37 +1,36 @@
-# Aplikasi-Perpustakaan-digital-SMK-Muhammadiyah-Kota-Cirebon
+# E-PERPUS
+ Aplikasi perpustakaan sederhana ini dibuat menggunakan Template admin dari AdminLTE.io dan Menggunakan bahasa pemograman PHP MySQLI. <br> <br>
+ Aplikasi ini bebas untuk di kembangkan lagi atau untuk bahan pembelajaran kalian bagi yang mau membuat applikasi perpustakaan, mungkin bisa mengambil contoh dari applikasi ini :)
 
+# Akun Administrator
+Username : admin
+<br>
+Password : admin
 
-## Sistem Informasi Perpustakaan
+# Cara Instalasi
+<ul>
+     <li> Ekstrak arsip / file zip yang telah didownload </li>
+     <li> Buka folder "e-perpus-main" </li>
+     <li> Pindahkan semua file dan folder di dalam folder "e-perpus-main" ke dalam folder Localhost (htdocs) </li>
+     <li> Buka XAMPP </li>
+     <li> Start Module Apache dan Module MySQL </li>
+     <li> Pilih aksi "Admin" pada Module MySQL untuk import database perpustakaan terlebih dahulu </li>
+     <li> Jika sudah masuk ke phpMyAdmin buat sebuah basis data baru bernama "db_perpustakaan" atau bisa juga sesuai kalian masing masing </li>
+     <li> JIka sudah dibuat, pilih basis data yang tadi kalian buat lalu pilih menu Import yang ada di bagian atas </li>
+     <li> Pilih Choose File untuk mencari database mana yang akan di import ke basis data tersebut </li>
+     <li> Jika sudah klik tombol kirim untuk mengupload database yang dipilih </li>
+     <li> Selanjutnya setting file koneksi.php yang terdapat di dalam folder Config </li>
+     <li> Sesuaikan dengan setinga di localhost kalian masing masing </li>
+     <li> Jika menurut kalian file koneksi.php sudah sesuai dengan setingan yang kalian gunakan, Selanjutnya kalian bisa langsung masuk ke Applikasi nya :) </li>
+     <li> Semoga Bermanfaat </li>
+</ul>
 
-Proyek ini merupakan aplikasi berbasis web yang dibangun menggunakan PHP untuk mengelola sistem informasi perpustakaan. Aplikasi ini mencakup fitur login, registrasi, dan pengelolaan data perpustakaan.
-
-### Fitur Utama:
-- **Manajemen Buku**: Tambah, edit, dan hapus data buku.
-- **Manajemen Anggota**: Kelola data anggota perpustakaan.
-- **Transaksi Peminjaman**: Catat peminjaman dan pengembalian buku.
-- **Autentikasi Pengguna**: Sistem login dan registrasi untuk pengguna.
-
-### Struktur Direktori:
-- `app/` : Direktori berisi logika inti aplikasi.
-- `assets/` : Berisi file statis seperti CSS, JavaScript, dan gambar.
-- `config/` : Konfigurasi database dan pengaturan aplikasi.
-- `database/` : Skrip SQL untuk pembuatan tabel dan data awal.
-- `function/` : Fungsi PHP pendukung.
-- `index.php` : Halaman awal aplikasi.
-- `login.php` : Halaman login pengguna.
-- `register.php` : Halaman registrasi pengguna.
-- `.htaccess` : Konfigurasi untuk mengatur akses direktori.
-- `LICENSE` : Lisensi proyek.
-- `README.md` : Panduan dan dokumentasi proyek.
-
-### Instalasi:
-1. Clone repository ini:
-   ```bash
-   git clone https://github.com/username/nama-repo.git
-   ```
-2. Konfigurasi database di `config/`.
-3. Jalankan server lokal (XAMPP/Laragon):
-   ```bash
-   php -S localhost:8000
-   ```
-4. Akses aplikasi melalui `http://localhost:8000`.
+# Terima Kasih
+<ul>
+    <li> AdminLTE </li>
+    <li> PT. Pacifica Raya Technology </li>
+    <li> Stackover Flow </li>
+    <li> Google </li>
+    <li> Github </li>
+    <li> Malasngoding.com </li>
+</ul>
